@@ -11,16 +11,9 @@
   <img src="https://www.rtdip.io/api/images/rest-api-logo.png">
 </p>
 
-<p>Representational State Transfer (REST) adalah salah satu desain arsitektur Application
-Programming Interface (API). API sendiri merupakan interface yang menjadi perantara
-yang menghubungkan satu aplikasi dengan aplikasi lainnya.
-REST API berisi aturan untuk membuat web service dengan membatasi hak akses client
-yang mengakses API. Kenapa harus demikian?
-Jika dianalogikan sebagai restoran, REST API adalah daftar menu. Pelanggan hanya bisa
-memesan sesuai daftar menu meskipun si koki (server) bisa membuatkan pesanan
-tersebut.</p>
-<p>REST API bisa diakses atau dihubungkan dengan aplikasi lain. Oleh sebab itu, pembatasan
-dilakukan untuk melindungi database/resource yang ada di server.</p>
+<p>REST API (Representational State Transfer Application Programming Interface) adalah sebuah arsitektur komunikasi yang digunakan dalam pengembangan aplikasi web. REST API memungkinkan aplikasi untuk berkomunikasi dengan aplikasi lain melalui protokol HTTP.</p>
+<p>REST API menggunakan prinsip-prinsip dasar dari arsitektur web, seperti penggunaan metode HTTP (seperti GET, POST, PUT, DELETE) untuk mengakses dan memanipulasi sumber daya (resource) yang teridentifikasi dengan URL (Uniform Resource Locator). Setiap sumber daya dalam REST API memiliki URL unik yang digunakan untuk mengaksesnya.</p>
+<p>Dalam REST API, data dikirim dan diterima dalam format yang umumnya adalah JSON (JavaScript Object Notation) atau XML (eXtensible Markup Language). JSON merupakan format yang lebih umum digunakan karena lebih ringan dan mudah dibaca oleh manusia maupun mesin.</p>
 
 ## Langkah-langkah Praktikum dan Persiapan
 Periapan awal adalah mengunduh aplikasi REST Client, ada banyak aplikasi yang dapat digunakan untuk keperluan tersebut. Salah satunya adalah Postman. [Postman](https://www.postman.com/) merupakan aplikasi yang berfungsi sebagai REST Client, digunakan untuk testing REST API. Unduh apliasi Postman [Disini.](https://www.postman.com/downloads/)
